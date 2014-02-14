@@ -241,8 +241,7 @@ namespace NetIntegration.Testing.Database
             {
                 var fs = new FileSecurity();
                 fs.AddAccessRule(new FileSystemAccessRule(Thread.CurrentPrincipal.Identity.Name, FileSystemRights.FullControl, AccessControlType.Allow));
-                fs.AddAccessRule(new FileSystemAccessRule("NT Service\\MSSQL$SQLEXPRESS", FileSystemRights.FullControl, AccessControlType.Allow));
-
+                
                 File.SetAccessControl(filename, fs);
             }
 

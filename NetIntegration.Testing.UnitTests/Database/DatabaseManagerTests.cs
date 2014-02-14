@@ -20,7 +20,7 @@ namespace NetIntegration.Testing.UnitTests.Database
             var connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFileName=|DataDirectory|\Northwind.mdf;Initial Catalog=Northwind;Integrated Security=True";
             var database = DatabaseManager.GetDatabase(connectionString);
 
-            var dacPackageFile = Path.GetFullPath(Path.Combine(Environment.CurrentDirectory, @"..\..\..\NetIntegraton.Database.Northwind\bin\Debug\Database.Northwind.dacpac"));
+            var dacPackageFile = Path.GetFullPath(Path.Combine(Environment.CurrentDirectory, @"..\..\..\NetIntegration.Database.Northwind\bin\Debug\NetIntegration.Database.Northwind.dacpac"));
             database.DeployLocalDB(dacPackageFile);
         }
     }
