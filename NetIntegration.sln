@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetIntegration.Testing", "NetIntegration.Testing\NetIntegration.Testing.csproj", "{54CDD1DB-A3F8-45EE-A2F5-7FBD9218A579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetIntegration.Testing.UnitTests", "NetIntegration.Testing.UnitTests\NetIntegration.Testing.UnitTests.csproj", "{D101E312-5C9E-4690-83B7-F1CE2EE68F46}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NetIntegration.Database.Northwind", "NetIntegration.Database.Northwind\NetIntegration.Database.Northwind.sqlproj", "{E6C4129E-82B9-4CF4-848E-C5E21767590D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54CDD1DB-A3F8-45EE-A2F5-7FBD9218A579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54CDD1DB-A3F8-45EE-A2F5-7FBD9218A579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54CDD1DB-A3F8-45EE-A2F5-7FBD9218A579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54CDD1DB-A3F8-45EE-A2F5-7FBD9218A579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D101E312-5C9E-4690-83B7-F1CE2EE68F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D101E312-5C9E-4690-83B7-F1CE2EE68F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D101E312-5C9E-4690-83B7-F1CE2EE68F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D101E312-5C9E-4690-83B7-F1CE2EE68F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C4129E-82B9-4CF4-848E-C5E21767590D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C4129E-82B9-4CF4-848E-C5E21767590D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C4129E-82B9-4CF4-848E-C5E21767590D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E6C4129E-82B9-4CF4-848E-C5E21767590D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C4129E-82B9-4CF4-848E-C5E21767590D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C4129E-82B9-4CF4-848E-C5E21767590D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
